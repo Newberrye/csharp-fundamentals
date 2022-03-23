@@ -14,8 +14,25 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
+Lesson2Example();
+
+
+// Lesson 2 Srtings
+void Lesson2Example()
+{
+    Lesson2 myLesson2 = new Lesson2();
+    myLesson2.MyTrimExample();
+    int able = myLesson2.myStringLength();
+    Console.WriteLine(able);
+    myLesson2.MyEqualsExample("Hello World");
+    myLesson2.MyExampleChar();
+    Console.WriteLine(myLesson2.MyEscapeExample());
+    myLesson2.MyJoinedSrtings("CSharp", "Rules");
+    Console.WriteLine(myLesson2.MyInterpolationExample("pizza", 3));
+    myLesson2.MyOtherInterpolation();
+}
 
 void HouseExample()
 {
