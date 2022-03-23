@@ -14,10 +14,26 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
+Lesson3Example();
 
+
+// Lesson 3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    // myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBooleanLogical(true, false);
+    // myLesson3.BasicCompound(12, 35, 9);
+    // myLesson3.BasicRelationalExample("Tom", "Tom");
+    myLesson3.MyIncrDecrExample();
+}
 
 // Lesson 2 Srtings
 void Lesson2Example()
