@@ -14,9 +14,9 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
-Lesson2Example();
+// Lesson2Example();
 
 
 // Lesson 2 Srtings
@@ -47,6 +47,14 @@ void HouseExample()
     excerciseOne.ThreeExplicitConversion(123_456_789D, 786.99F,
                                          9_999_999_999L);
     excerciseOne.FourTypeAssignment();
+
+
+    // Exercise 2 Object Example
+    ExerciseTwoStrings exerciseTwo = new ExerciseTwoStrings();
+    exerciseTwo.OneStringMethods(" EXERCISE two Lab ");
+    exerciseTwo.TwoUnicode();
+    exerciseTwo.ThreeEscapeSequences();
+    Console.WriteLine(exerciseTwo.FourInterpolation());
 
 }
 
