@@ -14,13 +14,22 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
-Lesson1Example();
+HouseExample();
+// Lesson1Example();
 
 void HouseExample()
 {
     House myHouse = new House();
     myHouse.DoorOpenClose();
+
+
+    // Exercise 1 Object Example
+    ExerciseOneValueTypes excerciseOne = new ExerciseOneValueTypes();
+    excerciseOne.OneNumberSystems();
+    excerciseOne.TwoImplicitConversion(254, 3_567, 2_147_483_646);
+    excerciseOne.ThreeExplicitConversion(123_456_789D, 786.99F,
+                                         9_999_999_999L);
+    excerciseOne.FourTypeAssignment();
 
 }
 
@@ -34,7 +43,7 @@ void Lesson1Example()
     myLesson.LongFromInt();
 }
 
-// ------------C# Exercise-------------
+// ------------C# Overview Exercise-------------
 
 /*
 This local function is  for my first exercise lab.
