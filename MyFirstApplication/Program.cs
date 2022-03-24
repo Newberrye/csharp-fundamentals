@@ -14,10 +14,10 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
-Lesson3Example();
+// Lesson3Example();
 
 
 // Lesson 3 Operators and Overflow Checking
@@ -32,7 +32,7 @@ void Lesson3Example()
     // myLesson3.BasicBooleanLogical(true, false);
     // myLesson3.BasicCompound(12, 35, 9);
     // myLesson3.BasicRelationalExample("Tom", "Tom");
-    myLesson3.MyIncrDecrExample();
+    // myLesson3.MyIncrDecrExample();
 }
 
 // Lesson 2 Srtings
@@ -71,6 +71,14 @@ void HouseExample()
     exerciseTwo.TwoUnicode();
     exerciseTwo.ThreeEscapeSequences();
     Console.WriteLine(exerciseTwo.FourInterpolation());
+
+
+    // Exercise 3 Object Example
+    ExerciseThreeOperatorsOverflow exerciseThree = new ExerciseThreeOperatorsOverflow();
+    Console.WriteLine(exerciseThree.OneModulusMethod(10));
+    exerciseThree.TwoMathProblem();
+    exerciseThree.ThreeCompoundOperators(50, 100);
+    exerciseThree.FourBoolStatements(true, true);
 
 }
 
