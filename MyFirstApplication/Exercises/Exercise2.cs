@@ -11,7 +11,7 @@ public class ExerciseTwoStrings
     Using string concatenation and the below string methods, write a Console
     WriteLine statement for each of them. Inside the string concatenation will be
     the name of each string method. When testing this method use the following
-    string “EXERCISE two Lab “.Do not copy and paste this in Visual Studio. It
+    string “EXERCISE two Lab “. Do not copy and paste this in Visual Studio. It
     will not paste correctly.
     a.Trim()
     b.ToLower()
@@ -21,11 +21,12 @@ public class ExerciseTwoStrings
      */
     public void OneStringMethods(string strValue)
     {
-        Console.WriteLine(strValue.Trim());
-        Console.WriteLine(strValue.ToLower());
-        Console.WriteLine(strValue.Contains("tow"));
-        Console.WriteLine(strValue.Length);
-        Console.WriteLine(strValue.IndexOf('C'));
+        Console.WriteLine("Trim: " + strValue.Trim());
+        Console.WriteLine("ToLower: " + strValue.ToLower());
+        Console.WriteLine("Contains: " + strValue.Contains("tow"));
+        Console.WriteLine("Length: " + strValue.Length);
+        Console.WriteLine("IndexOf: " + strValue.IndexOf('C'));
+
     }
 
 
@@ -37,7 +38,7 @@ public class ExerciseTwoStrings
     */
     public void TwoUnicode()
     {
-        string pilcrow = "\u00B6";
+        char pilcrow = '\u00B6';
         Console.WriteLine(pilcrow);
     }
 
