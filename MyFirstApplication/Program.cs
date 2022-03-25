@@ -14,11 +14,11 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
-Lesson4Example();
+// Lesson4Example();
 
 
 //Lesson 4 Control Flow
@@ -35,7 +35,7 @@ void Lesson4Example()
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
     // myLesson4.BasicForeachStatement();
-    myLesson4.BasicJumpStatements();
+    // myLesson4.BasicJumpStatements();
 }
 
 // Lesson 3 Operators and Overflow Checking
@@ -97,6 +97,12 @@ void HouseExample()
     exerciseThree.TwoMathProblem();
     exerciseThree.ThreeCompoundOperators(50, 100);
     exerciseThree.FourBoolStatements(true, true);
+
+    // Exercise 4 Object Example
+    ExerciseFourControlFlow exerciseFour = new ExerciseFourControlFlow();
+    exerciseFour.OneIfElse("Racecar", "Racecar");
+    Console.WriteLine(exerciseFour.TwoSwitch('E'));
+    exerciseFour.ThreeIteration();
 
 }
 
