@@ -100,4 +100,5 @@ internal class Lesson3
         --beta;
         Console.WriteLine(beta);
     }
-}
+
+} //end class

@@ -14,11 +14,29 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
+Lesson4Example();
 
+
+//Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(12);
+    // myLesson4.BasicIfElseStatement(9);
+    // myLesson4.BasicIfElseChainStatement(6);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    // myLesson4.BasicSwitchStatement(1);
+    // myLesson4.BasicWhileStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatement();
+    myLesson4.BasicJumpStatements();
+}
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
