@@ -144,10 +144,7 @@ internal class Lesson4
                 break;
             }
             Console.WriteLine($"Number = {i}");
-                
-        }
-            
-            
+        }     
     }
 
 } // end class
