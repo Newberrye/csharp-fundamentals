@@ -72,7 +72,7 @@ public class ExerciseFourControlFlow
     */
     public void ThreeIteration()
     {
-        for(int i = 0; i < 31; i++)
+        for(int i = 0; i <= 30; i++)
         {
             if (i % 3 == 0)
             {
