@@ -14,11 +14,38 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+//HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
+Lesson5Example();
+
+
+// Lesson 5 Expressions & Pattern Matching
+void Lesson5Example()
+{
+    Lesson5 myLesson5 = new Lesson5();
+
+    myLesson5.IsOperatorExample(34);
+
+    Lesson5.Del handler = myLesson5.DelegateMethod;
+    handler("Hello C#");
+
+    Func<int, int> add = myLesson5.Sum;
+    Console.WriteLine($"func delegate = {add(23)}");
+
+    myLesson5.LambdaSquare();
+    myLesson5.LambdaGreeting();
+
+    Console.WriteLine(myLesson5.BasicSwitch("green"));
+    Console.WriteLine(myLesson5.FavoriteColor("black"));
+
+    myLesson5.DrinkSize(15);
+
+    myLesson5.TemperatureGuide(48.6);
+    myLesson5.NumberChoice(3);
+}
 
 
 //Lesson 4 Control Flow
