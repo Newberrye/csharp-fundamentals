@@ -14,12 +14,12 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-//HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
-Lesson5Example();
+// Lesson5Example();
 
 
 // Lesson 5 Expressions & Pattern Matching
@@ -130,6 +130,12 @@ void HouseExample()
     exerciseFour.OneIfElse("Racecar", "Racecar");
     Console.WriteLine(exerciseFour.TwoSwitch('E'));
     exerciseFour.ThreeIteration();
+
+    // Exercise 5 Object Example
+    ExerciseFiveExpressions exerciseFive = new ExerciseFiveExpressions();
+    Console.WriteLine(exerciseFive.OneCalcVoltage(20, 8));
+    Console.WriteLine(exerciseFive.TwoSwitchGrade('Q'));
+    exerciseFive.ThreeRelationalSizing(255);
 
 }
 
