@@ -15,13 +15,13 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
 // Lesson5Example();
-Lesson6Example();
+// Lesson6Example();
 
 
 // Lesson 6 Constructors
@@ -178,6 +178,16 @@ void HouseExample()
     Console.WriteLine(exerciseFive.OneCalcVoltage(20, 8));
     Console.WriteLine(exerciseFive.TwoSwitchGrade('Q'));
     exerciseFive.ThreeRelationalSizing(255);
+
+    // Exercise 6 Constructor Example
+    ExerciseSixConstructors exerciseSix = new ExerciseSixConstructors(7, "Adidas");
+    Console.WriteLine(exerciseSix.ShowSize);
+    exerciseSix.ShowSize = 8;
+    Console.WriteLine(exerciseSix.ShowSize);
+
+    ExerciseSixConstructors.TryOn shoes = exerciseSix.printMessage;
+    shoes($"I tried on the shoes {exerciseSix.ShoeType} of size {exerciseSix.ShowSize}");
+
 
 }
 
