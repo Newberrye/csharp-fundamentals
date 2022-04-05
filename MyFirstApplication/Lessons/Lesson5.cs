@@ -100,7 +100,7 @@ internal class Lesson5
         string result = size switch
         {
             <= 20 => "Can",
-            <= 32 => "Bottle",
+            <= 32 => "bottle",
             <= 64 => "Big Gulp",
             _ => "We don't have that size."
         };
