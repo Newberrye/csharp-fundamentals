@@ -15,14 +15,14 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Example();
-Lesson7Example();
+// Lesson7Example();
 
 
 void Lesson7Example()
@@ -211,6 +211,16 @@ void HouseExample()
 
     ExerciseSixConstructors.TryOn shoes = exerciseSix.printMessage;
     shoes($"I tried on the shoes {exerciseSix.ShoeType} of size {exerciseSix.ShowSize}");
+
+    // Exercise 7 Struct and Record Example
+    Employee employee = new Employee(789, "Robert");
+    Console.WriteLine(employee.EmployeeName);
+    employee.EmployeeName = "Kyle";
+    Console.WriteLine(employee.EmployeeName);
+
+    Boat boatyMcBoatFace = new Boat("blue", 78, 25);
+    Console.WriteLine(boatyMcBoatFace.paintColor);
+    boatyMcBoatFace.turnEngineOn();
 
 
 }
