@@ -15,13 +15,37 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Example();
+Lesson7Example();
+
+
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 47.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // Readonly Struct
+    Student myStudent = new Student(10, "Roger");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    // Record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+}
 
 
 // Lesson 6 Constructors

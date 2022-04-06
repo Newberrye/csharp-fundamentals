@@ -34,6 +34,21 @@ public class ExerciseThreeOperatorsOverflow
         return numE % arg;
     }
 
+    public int ExerciseOne(int arg)
+    {
+        int numA = 15;
+        int numB = 456;
+        int numC = 23;
+        int numD = 89;
+        int numE = 245;
+
+        Console.WriteLine(numA % arg);
+        Console.WriteLine(numB % arg);
+        Console.WriteLine(numC % arg);
+        Console.WriteLine(numD % arg);
+        return numE % arg;
+    }
+
 
     /*
     2.Write a method that takes no arguments and a void return type. Utilizing
