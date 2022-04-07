@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -234,6 +234,10 @@ void Lesson1Example()
     myLesson.ConvertFloatToInt();
     myLesson.LongFromInt();
 }
+
+// Bottles of beer example
+BottlesOfBeer beerSong = new BottlesOfBeer();
+// beerSong.LetsSing();
 
 // ------------C# Overview Exercise-------------
 
