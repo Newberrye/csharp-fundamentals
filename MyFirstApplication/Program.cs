@@ -23,6 +23,26 @@ that member and can only be called inside that member.
 // Lesson5Example();
 // Lesson6Example();
 // Lesson7Example();
+Lesson8Example();
+
+void Lesson8Example()
+{
+    Lesson8 myLesson8 = new Lesson8(3);
+    // Calling constant directly
+    Console.WriteLine(Lesson8.DaysPeMonth);
+
+    // Calculate temperature with static class
+    Console.WriteLine(Lesson8Static.CelsiusToFahrenheit(45.6));
+
+    // Static methods
+    Lesson8.DayCount = 10;
+    myLesson8.CalculateHours();
+    Lesson8.CalculateDayCount();
+    Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times.");
+
+    myLesson8.CalculateHoursV2();
+
+}
 
 
 void Lesson7Example()
