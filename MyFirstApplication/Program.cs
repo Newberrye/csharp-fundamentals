@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -23,7 +23,7 @@ that member and can only be called inside that member.
 // Lesson5Example();
 // Lesson6Example();
 // Lesson7Example();
-Lesson8Example();
+// Lesson8Example();
 
 void Lesson8Example()
 {
@@ -241,6 +241,13 @@ void HouseExample()
     Boat boatyMcBoatFace = new Boat("blue", 78, 25);
     Console.WriteLine(boatyMcBoatFace.paintColor);
     boatyMcBoatFace.turnEngineOn();
+
+    // Exercise 8 Constant and Static
+    ExerciseEightStatic exerciseEight = new ExerciseEightStatic();
+    exerciseEight.ConvertFeetToInches(3);
+    ExerciseEightStatic.CalcRectArea(20, 20);
+    ExerciseEightStatic.CalcRectArea(34, 3);
+    ExerciseEightStatic.CalcRectArea(1_000, 1_000);
 
 
 }
