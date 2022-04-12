@@ -2,7 +2,7 @@
  * Imports Synthesis from System.Speech Library
  * System.Speech may be added to project through:
  * Project > Manage NuGetPackages > Search > Browse > Search: System.Speech by Microsoft
- * Note: This package is only available for Windows.
+ * Note: This package is only available for Windows (Maybe?)
  */
 using System.Speech.Synthesis;
 
