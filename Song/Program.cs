@@ -1,4 +1,11 @@
-﻿using System.Speech.Synthesis;
+﻿/*
+ * Imports Synthesis from System.Speech Library
+ * System.Speech may be added to project through:
+ * Project > Manage NuGetPackages > Search > Browse > Search: System.Speech by Microsoft
+ * Note: This package is only available for Windows.
+ */
+using System.Speech.Synthesis;
+
 namespace Song;
 
 /*
@@ -65,7 +72,7 @@ class Program
             {
                 singer.Rate -= rateChange;
             }
-        }
+        }// end while loop
 
-    }
-}
+    } // end Main method
+} // end class
