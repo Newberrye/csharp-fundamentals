@@ -1,5 +1,6 @@
 # csharp-fundamentals
 This repository will cover all the C# material taught in WSUtech's C# Programming Language course.
+C# 10 using .NET 6.0 and Visual Studio 2022.
 
 ## Topics Covered so Far:
 * **Numeric Data** - Types of Numbers and Numeric Conversion
