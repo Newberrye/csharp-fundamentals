@@ -56,7 +56,7 @@ class Program
             singer.SelectVoice(voices[voiceChanger]);
 
             // Slowest voice rate is -10
-            if (singer.Rate < -6)
+            if (singer.Rate >= -6)
             {
                 singer.Rate -= 4;
             }
