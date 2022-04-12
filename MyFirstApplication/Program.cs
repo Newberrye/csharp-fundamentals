@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -263,8 +263,9 @@ void Lesson1Example()
 }
 
 // Bottles of beer example
-BottlesOfBeer beerSong = new BottlesOfBeer();
+// BottlesOfBeer beerSong = new BottlesOfBeer();
 // beerSong.LetsSing();
+
 
 // ------------C# Overview Exercise-------------
 
@@ -272,10 +273,10 @@ BottlesOfBeer beerSong = new BottlesOfBeer();
 This local function is  for my first exercise lab.
 */
 
-void MyLocalFunction()
-{
-    Console.WriteLine("This is my first sentence");
-    Console.WriteLine("I am new to CSharp");
-    Console.WriteLine("This CSharp course is cool");
-    Console.WriteLine("I am learning stuff every day.");
-}
+//void MyLocalFunction()
+//{
+//    Console.WriteLine("This is my first sentence");
+//    Console.WriteLine("I am new to CSharp");
+//    Console.WriteLine("This CSharp course is cool");
+//    Console.WriteLine("I am learning stuff every day.");
+//}
