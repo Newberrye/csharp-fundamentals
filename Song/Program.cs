@@ -17,6 +17,7 @@ class Program
         // Voice speed range slow to fast: -10 to 10
         singer.Rate = 4;
 
+        int rateChange = 4;
         int beerNum = 3;
         string word = "bottles";
         int voiceChanger = -1;
@@ -56,9 +57,13 @@ class Program
             singer.SelectVoice(voices[voiceChanger]);
 
             // Slowest voice rate is -10
-            if (singer.Rate >= -6)
+            if (singer.Rate - rateChange <= -10)
             {
-                singer.Rate -= 4;
+                singer.Rate = -10;
+            }
+            else
+            {
+                singer.Rate -= rateChange;
             }
         }
 
