@@ -29,7 +29,7 @@ that member and can only be called inside that member.
 // HouseUpdated();
 // Lesson11Example();
 // Lesson12Example();
-CondoExample();
+// CondoExample();
 
 void CondoExample()
 {

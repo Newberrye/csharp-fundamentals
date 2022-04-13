@@ -3,6 +3,7 @@
 namespace MyFirstApplication;
 
 /*
+ * Exercise 11
  * 1.Create a child class based on your Horse object. Include one child attribute
  * as an auto property. Create 3 constructors. The first constructor should have 5 
  * parameters with 4 of them from Horse and your child property. Using the 
@@ -21,7 +22,7 @@ namespace MyFirstApplication;
  */
 
 /*
- * This is my derived class for Exercise 11 Inheritance for problem 1.
+ * This is my derived class for Exercise 11 Inheritance & Exercise 12 Polymorphism.
  */
 public class Pony : Horse
 {
@@ -42,5 +43,16 @@ public class Pony : Horse
     public void FeedPony()
     {
         WriteLine("The pony was fed and lived happily ever after.");
+    }
+
+    /*
+     * Exercise 12
+     * 2.In your child class of Horse, using the override keyword create a method
+     * that has the same name as the virtual method from Horse. Add a Console 
+     * WriteLine that provides a different message from the Horse
+     */
+    public override void gallop()
+    {
+        WriteLine("The pony gallops.");
     }
 }
