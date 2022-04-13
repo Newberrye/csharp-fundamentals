@@ -24,7 +24,53 @@ that member and can only be called inside that member.
 // Lesson6Example();
 // Lesson7Example();
 // Lesson8Example();
-Lesson9Example();
+// Lesson9Example();
+// Lesson10Example();
+HouseUpdated();
+
+void HouseUpdated()
+{
+    // Calling default
+    House myHouse = new House();
+    Console.WriteLine(myHouse.RoofType);
+    myHouse.DoorOpenClose();
+
+    // Calling Constructor with 2 parameters
+    House mySecond = new House("straw", "bamboo");
+    Console.WriteLine(myHouse.WindowSize);
+    mySecond.DoorOpenClose();
+
+    // Calling Constructor with four parameters
+    House myThird = new House("dirt", "plastic", "green", 40);
+    Console.WriteLine(myHouse.Foundation);
+    myThird.DoorOpenClose();
+}
+
+void Lesson10Example()
+{
+    Lesson10 myLesson10 = new Lesson10();
+
+    // Using this to call another constructor
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Normal property
+    myLesson10.FirstName = "Paul";
+    Console.WriteLine(myLesson10.FirstName);
+
+    // Calling auto properties
+    // myLesson10.LastName = "Smith"; // can only be set in constructor
+    Console.WriteLine(myLesson10.Id);
+    myLesson10.Id = 8;
+    Console.WriteLine(myLesson10.Id);
+
+    // Expression Body Property
+    myLesson10.Address = "123 Main St.";
+    Console.WriteLine(myLesson10.Address);
+
+    // Second constructor
+    Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
+    Console.WriteLine(myOther10.ZipCode);
+}
 
 void Lesson9Example()
 {
