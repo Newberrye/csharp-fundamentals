@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -27,6 +27,18 @@ HouseExample();
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
+Lesson11Example();
+
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+}
 
 void HouseUpdated()
 {
