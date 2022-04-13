@@ -24,6 +24,18 @@ that member and can only be called inside that member.
 // Lesson6Example();
 // Lesson7Example();
 // Lesson8Example();
+Lesson9Example();
+
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers; Can't see Private, Protected, and Private Protected
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+    
+}
 
 void Lesson8Example()
 {
@@ -144,7 +156,7 @@ void Lesson4Example()
     // myLesson4.BasicAndOrCondition(20, 20);
     // Console.WriteLine(myLesson4.BasicTernaryExample(35));
     // myLesson4.BasicSwitchStatement(1);
-    // myLesson4.BasicWhileStatement();
+    myLesson4.BasicWhileStatement();
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
     // myLesson4.BasicForeachStatement();
