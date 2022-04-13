@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -26,7 +26,7 @@ that member and can only be called inside that member.
 // Lesson8Example();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdated();
+// HouseUpdated();
 
 void HouseUpdated()
 {
@@ -306,6 +306,32 @@ void HouseExample()
     ExerciseEightStatic.CalcRectArea(20, 20);
     ExerciseEightStatic.CalcRectArea(34, 3);
     ExerciseEightStatic.CalcRectArea(1_000, 1_000);
+
+    // Exercise 10 Encapsulation
+    Horse horse = new Horse();
+    Horse horse2 = new Horse(false, 6);
+    Horse horse3 = new Horse(false, 8, "Black");
+
+    Console.WriteLine(horse.horseSize);
+    Console.WriteLine(horse2.horseSize);
+    Console.WriteLine(horse3.horseSize);
+    horse.gallop();
+
+    BoatClass boat = new BoatClass();
+    BoatClass boat2 = new BoatClass("blue", 12);
+    BoatClass boat3 = new BoatClass("black", 12, 25);
+
+    Console.WriteLine(boat.BoatColor);
+    Console.WriteLine(boat.BoatSize);
+    Console.WriteLine(boat.MaxSpeed);
+    Console.WriteLine(boat2.BoatColor);
+    Console.WriteLine(boat2.BoatSize);
+    Console.WriteLine(boat2.MaxSpeed);
+    Console.WriteLine(boat3.BoatColor);
+    Console.WriteLine(boat3.BoatSize);
+    Console.WriteLine(boat3.MaxSpeed);
+
+    boat.turnOnEngine();
 
 
 }
