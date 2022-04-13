@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -27,7 +27,7 @@ that member and can only be called inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Lesson11Example();
+// Lesson11Example();
 
 void Lesson11Example()
 {
@@ -344,6 +344,27 @@ void HouseExample()
     Console.WriteLine(boat3.MaxSpeed);
 
     boat.turnOnEngine();
+
+
+    // Exercise 11 Inheritance
+    Pony pony = new Pony();
+    Pony pony2 = new Pony(false, 3, 2);
+    Pony pony3 = new Pony(false, 2, "black", 1);
+
+    Console.WriteLine(pony.horseShoed);
+    Console.WriteLine(pony.horseSize);
+    Console.WriteLine(pony.horseColor);
+    Console.WriteLine(pony.Age);
+    Console.WriteLine(pony2.horseShoed);
+    Console.WriteLine(pony2.horseSize);
+    Console.WriteLine(pony2.horseColor);
+    Console.WriteLine(pony2.Age);
+    Console.WriteLine(pony3.horseShoed);
+    Console.WriteLine(pony3.horseSize);
+    Console.WriteLine(pony3.horseColor);
+    Console.WriteLine(pony3.Age);
+
+    pony.FeedPony();
 
 
 }
