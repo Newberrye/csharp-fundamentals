@@ -15,7 +15,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -386,6 +386,14 @@ void HouseExample()
     Console.WriteLine(pony3.Age);
 
     pony.FeedPony();
+
+    //Exercise 12 Polymorphism
+    horse.gallop(7);
+    pony.gallop();
+    boat.turnOnEngine(8);
+    
+    SpeedBoat speedBoat = new SpeedBoat();
+    speedBoat.turnOnEngine();
 
 
 }

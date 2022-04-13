@@ -61,7 +61,7 @@ public class BoatClass
         WriteLine($"The {BoatColor} boat's engine was turned on");
     }
 
-    public void turnOnEnginer(int numberOfTries)
+    public void turnOnEngine(int numberOfTries)
     {
         WriteLine($"You turn on engine after {numberOfTries} tries.");
     }
