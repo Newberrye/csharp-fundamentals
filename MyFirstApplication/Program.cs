@@ -1,9 +1,5 @@
 ﻿using MyFirstApplication;
 
-
-// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-
 // The below statement calls a local function
 // single line comment
 
@@ -15,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -30,6 +26,21 @@ HouseExample();
 // Lesson11Example();
 // Lesson12Example();
 // CondoExample();
+Lesson13Example();
+
+void Lesson13Example()
+{
+    Lesson13Derived myLesson13 = new Lesson13Derived(3);
+    int total1 = myLesson13.ConvertFeetToInches();
+    int total2 = myLesson13.ConvertYardsToFeet();
+
+    Console.WriteLine($"Converting feet to inches {total1}");
+    Console.WriteLine($"Converting yards to feet {total2}");
+
+    // These are from the interface
+    int total3 = myLesson13.ConvertMilesToYards();
+    Console.WriteLine($"Converting miles to yards {total3}");
+}
 
 void CondoExample()
 {
