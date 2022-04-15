@@ -16,3 +16,4 @@ C# 10 using .NET 6.0 and Visual Studio 2022.
 10. **Encapsulation** - Wrapping and simplifying code by grouping code into specific units.
 11. **Inheritance** - Derived class inheritance from base classes and types of inheritance in C#.
 12. **Polymorphism** - Overriding and overloading of members in base and derived classes.
+13. **Abstraction** - Use of abstract on classes and members for later implementation, and the use of interfaces.
