@@ -11,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -26,7 +26,7 @@ that member and can only be called inside that member.
 // Lesson11Example();
 // Lesson12Example();
 // CondoExample();
-Lesson13Example();
+// Lesson13Example();
 
 void Lesson13Example()
 {
@@ -405,6 +405,12 @@ void HouseExample()
     
     SpeedBoat speedBoat = new SpeedBoat();
     speedBoat.turnOnEngine();
+
+    // Exercise 13 Abstraction
+    Seagull bird = new Seagull(22);
+    Console.WriteLine(bird.Speed);
+    bird.Fish();
+    bird.StealFood();
 
 
 }
