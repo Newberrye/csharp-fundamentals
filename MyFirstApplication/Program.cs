@@ -11,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+// HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -27,6 +27,19 @@ HouseExample();
 // Lesson12Example();
 // CondoExample();
 // Lesson13Example();
+Lesson14Example();
+
+
+void Lesson14Example()
+{
+    Lesson14 myLesson14 = new Lesson14();
+    //myLesson14.SingleIntArray();
+    //myLesson14.SingleHouseArray();
+    //myLesson14.MultiIntArray();
+    //myLesson14.MultiStringArray();
+    myLesson14.JaggedArraySample();
+
+}
 
 void Lesson13Example()
 {
