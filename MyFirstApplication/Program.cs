@@ -11,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-// HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -27,7 +27,7 @@ that member and can only be called inside that member.
 // Lesson12Example();
 // CondoExample();
 // Lesson13Example();
-Lesson14Example();
+// Lesson14Example();
 
 
 void Lesson14Example()
@@ -37,7 +37,7 @@ void Lesson14Example()
     //myLesson14.SingleHouseArray();
     //myLesson14.MultiIntArray();
     //myLesson14.MultiStringArray();
-    myLesson14.JaggedArraySample();
+    // myLesson14.JaggedArraySample();
 
 }
 
@@ -424,6 +424,11 @@ void HouseExample()
     Console.WriteLine(bird.Speed);
     bird.Fish();
     bird.StealFood();
+
+    // Exercise 14 Arrays
+    ExerciseFourteenArrays arrayObject = new ExerciseFourteenArrays();
+    arrayObject.ProblemOneIceCream();
+    arrayObject.ProblemTwoScores();
 
 
 }
