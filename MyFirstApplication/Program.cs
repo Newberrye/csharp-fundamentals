@@ -11,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-HouseExample();
+//HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -28,6 +28,18 @@ HouseExample();
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
+Lesson15Example();
+
+
+void Lesson15Example()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    myLesson15.EnumExample();
+    Console.WriteLine(myLesson15.FavoriteIceCream(IceCreamFlavors.Chocolate));
+    myLesson15.TupleExample();
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 15);
+    Console.WriteLine($"Answers are {val1}, {val2}, and {val3}.");
+}
 
 
 void Lesson14Example()
