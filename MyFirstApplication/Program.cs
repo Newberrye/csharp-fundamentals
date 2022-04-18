@@ -11,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-//HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -28,7 +28,7 @@ that member and can only be called inside that member.
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
-Lesson15Example();
+// Lesson15Example();
 
 
 void Lesson15Example()
@@ -441,6 +441,13 @@ void HouseExample()
     ExerciseFourteenArrays arrayObject = new ExerciseFourteenArrays();
     arrayObject.ProblemOneIceCream();
     arrayObject.ProblemTwoScores();
+    Console.WriteLine();
+
+    // Exercise 15 Enums and Tuples
+    ExerciseFifteenEnumsTuples movies = new ExerciseFifteenEnumsTuples();
+    Console.WriteLine(movies.ProblemOneMovies(FavoriteMovies.Tucker_and_Dale_vs_Evil));
+    (int number, string movie) = movies.ProblemTwoTuples(FavoriteMovies.Lord_of_the_Rings);
+    Console.WriteLine($"{movie} is number {number} in my enum.");
 
 
 }
