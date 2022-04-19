@@ -41,7 +41,7 @@ public class ExerciseSixteenCollections
     {
         Dictionary<int, string> dictionary = new Dictionary<int, string>();
 
-        // Foreach for adding items to list
+        // Foreach for adding items to dictionary
         foreach (FavoriteMovies movie in Enum.GetValues(typeof(FavoriteMovies)))
         {
             dictionary.Add((int)movie, movie.ToString());
