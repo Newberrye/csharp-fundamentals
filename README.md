@@ -17,3 +17,6 @@ C# 10 using .NET 6.0 and Visual Studio 2022.
 11. **Inheritance** - Derived class inheritance from base classes and types of inheritance in C#.
 12. **Polymorphism** - Overriding and overloading of members in base and derived classes.
 13. **Abstraction** - Use of abstract on classes and members for later implementation, and the use of interfaces.
+14. **Arrays** - Single dimensional arrays, multidimensional array, and jagged arrays.
+15. **Enums & Tuples** - How to create and use Enums, and creating and using Tuples for methods.
+16. **Collections, Lists, and Dictionaries** - Overview of generic and non-generic collections, using List<T>, and using Dictionary<TKey, TValue>
