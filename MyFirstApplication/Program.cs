@@ -11,7 +11,7 @@ that member and can only be called inside that member.
  */
 
 // Lesson Examples
-//HouseExample();
+HouseExample();
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
@@ -30,7 +30,7 @@ that member and can only be called inside that member.
 // Lesson14Example();
 // Lesson15Example();
 // Lesson16Example();
-Lesson17Example();
+// Lesson17Example();
 
 
 void Lesson17Example()
@@ -472,6 +472,12 @@ void HouseExample()
     ExerciseSixteenCollections collections = new ExerciseSixteenCollections();
     collections.ProblemOneList();
     collections.ProblemTwoDictionary();
+
+    // Exercise 17 Exception Handling
+    ExerciseSeventeenExceptions exception = new ExerciseSeventeenExceptions();
+    exception.ProblemOneTry(3, 2);
+    Horse horsey = new Horse();
+    exception.ProblemTwoHorse(horsey);
 
 
 }
