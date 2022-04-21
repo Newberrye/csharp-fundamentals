@@ -20,3 +20,5 @@ C# 10 using .NET 6.0 and Visual Studio 2022.
 14. **Arrays** - Single dimensional arrays, multidimensional array, and jagged arrays.
 15. **Enums & Tuples** - How to create and use Enums, and creating and using Tuples for methods.
 16. **Collections, Lists, and Dictionaries** - Overview of generic and non-generic collections, using List<T>, and using Dictionary<TKey, TValue>
+17. **Exceptions** - What are exceptions, using throw, and checking if objects are null.
+18. **Unit Tests** - What are unit tests, how to create them in Visual Studio, and the AAA Pattern.
